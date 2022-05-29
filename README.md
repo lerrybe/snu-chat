@@ -48,23 +48,23 @@ Authorization: Key sdfsdlfkje23rdsfsi9fergi
 
 ## 스펙
 ### 라이브러리
-react 사용
-react functional component 사용
-axios 사용
-ui framework 1개 이상 사용.(material design, bootstrap...)
+* react 사용
+* react functional component 사용
+* axios 사용
+* ui framework 1개 이상 사용.(material design, bootstrap...)
 
 ### 기능
-가벼운 카카오 오픈채팅방이라고 보면 됨
-화면 로딩이 완료되고, localStorage 에 key가 저장되있을 시 /login으로 키가 valid한지 확인.
-valid시 로그인 처리
-로그인 안 한 상태에서는 현재 방 목록을 볼 수 있음.(채팅방 입장은 불가)
-회원가입 버튼을 누르면, name을 입력할 수 있고 입력하면. 회원가입 및 로그인 완료.
-로그인 완료 시 방에 채팅 기능 활성화, 방 create 버튼 활성화.
-방 입장 시 채팅이 가능.
-3초에 한 번씩 서버 채팅 목록을 가져와, 새로운것이 있으면 업데이트 해줌.
-메시지 입력 완료 시, 서버에서 바로 채팅 목록 가져와서 refresh.
+* 가벼운 카카오 오픈채팅방이라고 보면 됨
+* 화면 로딩이 완료되고, localStorage 에 key가 저장되있을 시 /login으로 키가 valid한지 확인.
+* valid시 로그인 처리
+* 로그인 안 한 상태에서는 현재 방 목록을 볼 수 있음.(채팅방 입장은 불가)
+* 회원가입 버튼을 누르면, name을 입력할 수 있고 입력하면. 회원가입 및 로그인 완료.
+* 로그인 완료 시 방에 채팅 기능 활성화, 방 create 버튼 활성화.
+* 방 입장 시 채팅이 가능.
+* 3초에 한 번씩 서버 채팅 목록을 가져와, 새로운것이 있으면 업데이트 해줌.
+* 메시지 입력 완료 시, 서버에서 바로 채팅 목록 가져와서 refresh.
 
 ### 추가스펙
-로그아웃 기능
-방에 채팅이 50개 이상 쌓였을 경우, 스크롤 할 시에 대화 추가 로드.
-채팅 입력시 enter 와 shift+enter 구분해서 핸들링(enter -> 채팅 전송. shift + enter -> 엔터입력)
+* 로그아웃 기능
+* 방에 채팅이 50개 이상 쌓였을 경우, 스크롤 할 시에 대화 추가 로드.
+* 채팅 입력시 enter 와 shift+enter 구분해서 핸들링(enter -> 채팅 전송. shift + enter -> 엔터입력)
